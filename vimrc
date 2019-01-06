@@ -32,7 +32,7 @@ set hidden
 
 syntax enable
 
-"colorscheme monokai
+colorscheme monokai
 
 "packadd! onedark.vim
 
@@ -54,7 +54,7 @@ syntax enable
 
 "colorscheme onedark
 
-colorscheme gruvbox
+"colorscheme gruvbox
 
 " Change leader to a comma because the backslash is too far away
 " That means all \x commands turn into ,x
