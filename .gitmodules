@@ -1,3 +1,6 @@
 [submodule "pack/plugins/opt/onedark.vim"]
 	path = pack/plugins/opt/onedark.vim
 	url = git@github.com:joshdick/onedark.vim.git
+[submodule "pack/plugins/opt/gruvbox"]
+	path = pack/plugins/opt/gruvbox
+	url = git@github.com:morhetz/gruvbox.git
