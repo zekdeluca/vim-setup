@@ -25,7 +25,11 @@ set autoread                    "Reload files changed outside vim
 set hidden
 
 "turn on syntax highlighting
-syntax on
+"syntax on
+
+"Enable syntax highlighting colorscheme
+syntax enable
+colorscheme monokai
 
 " Change leader to a comma because the backslash is too far away
 " That means all \x commands turn into ,x
