@@ -45,20 +45,20 @@ git commit -m "Add submodules"
     ```
     git clone --recursive https://github.com/username/reponame.git
     ```
-    
+
 - Symlink `.vim` and `.vimrc`:
 
     ```
-    ln -sf reponame ~/.vim
-    ln -sf reponame/vimrc ~/.vimrc (NOT required if you use vim 7.4 or above)
+    ln -sf <repo-complete-path>/repo-name <home-complete-path>/.vim (make sure to use fully qualified path to avoid issues with the symlink)
+    ln -sf <repo-complete-path>/repo-name/vimrc <home-complete-path>/.vimrc (NOT required if you use vim 7.4 or above)(make sure to use fully qualified path to avoid issues with the symlink)
     ```
-    
+
 - Generate helptags for plugins:
     ```
     vim
     :helptags ALL
     ```
-    
+
 ### Removing plugins
 To remove `foo`:
 ```
