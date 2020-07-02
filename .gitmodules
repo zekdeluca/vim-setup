@@ -4,3 +4,6 @@
 [submodule "pack/plugins/opt/gruvbox"]
 	path = pack/plugins/opt/gruvbox
 	url = git@github.com:morhetz/gruvbox.git
+[submodule "pack/plugins/start/nerdtree"]
+	path = pack/plugins/start/nerdtree
+	url = https://github.com/preservim/nerdtree.git
