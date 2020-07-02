@@ -96,6 +96,13 @@ set softtabstop=2
 set tabstop=2
 set expandtab
 
+" Ban the use of arrows
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
+
+
 " Auto indent pasted text
 nnoremap p p=`]<C-o>
 nnoremap P P=`]<C-o>
