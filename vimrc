@@ -73,7 +73,7 @@ noremap <Right> <Nop>
 " NERDTree
 nmap <C-n> :NERDTreeToggle<CR>
 
-" =============== Automatic commands ===============
+" =============== Automatic commands and setups ===============
 
 " NERDTree
 " Open a NERDTree automatically when vim starts up if no files were specified
@@ -81,6 +81,8 @@ autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 " Close vim if the only window left open is a NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+" Show dot files (also called hidden files) 
+let NERDTreeShowHidden=1
 
 " =============== Vundle Initialization ===============
 
