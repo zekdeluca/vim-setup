@@ -82,6 +82,13 @@ cd ~/.vim
 git submodule foreach git pull origin master
 ```
 
+To fetch all (or missing) submodules:
+```
+cd ~/.vim
+git submodule update
+```
+
+
 Note that new commits to plugins create uncommitted changes in the main repository.
 Thus, after any updates in the submodules, you need to commit the main repository as well:
 ```
